@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0px 10px;
+}
+
+/* header */
+
+.header {
+    margin: 23px 0px;
+}
+
+.header .logo__bar {
+    height: 72px;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo__bar .numbers {
+    color: #eb5017;
+    font-size: 18pt;
+    padding-right: 13px;
+}
+
+.header .nav__bar .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #231f20;
+}
+
+.header .nav__bar .nav > li {
+    padding: 16px 0;
+    font-size: 10pt;
+    list-style-type: none;
+    border-left: 1px solid #eb5017;
+    transition: 0.1s;
+}
+
+.header .nav__bar .nav > li:hover {
+    background-color: #eb5017;
+    transition: 0.1s;
+}
+
+.header .nav__bar .nav #active {
+    background-color: #eb5017;
+}
+
+.header .nav__bar .nav > li:first-child {
+    border-left: none;
+}
+
+.header .nav__bar .nav > li a {
+    color: #ffffff;
+    padding: 16px 40px 15px 34px;
+    text-decoration: none;
+}
+
+.header .nav__bar .nav > li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .breadcrumbs {
+    padding: 15px 0 3px 21px;
+    color: #231f20;
+    display: flex;
+    font-size: 10pt;
+}
+
+.header .breadcrumbs a {
+    color: #231f20;
+}
+
+.header .breadcrumbs a:visited {
+    color: #231f20;
+}
+
+.header .breadcrumbs > span {
+    padding: 0 5px;
+}
+
+/* content */
+
+.content {
+    padding: 0px 10px 60px 10px;
+}
+
+/* calculator */
+
+.calculator {
+    height: 378px;
+    width: 652px;
+    background-color: #f2f2f2;
+}
+
+.calculator .title {
+    padding: 19px 0px 0px 99px;
+    color: #eb5017;
+}
+
+.calculator .menu {
+    padding: 29px 0 35px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator .menu form {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator .menu .left__part .item {
+    padding-bottom: 19px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calculator .menu .left__part .item input, 
+.calculator .menu .left__part .item select {
+    width: 80px;
+    margin: 0 0 0 28px;
+    padding: 0 0 0 6px;
+    border: 1px solid #cfd1d2;
+    box-shadow: 0px -3.5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+
+
+.calculator .menu .left__part .item option {
+    width: 86px;
+}
+
+.calculator .menu .left__part .item .menu_radio {
+    display: flex;
+    margin: 0 0 0 28px;
+    width: 86px
+}
+
+.calculator .menu .left__part .item .form_radio {
+    display: flex;
+    align-items: center;
+}
+
+.calculator .menu .left__part .item .form_radio:first-child {
+    padding: 0 21px 0 0;
+}
+
+.calculator .menu .left__part .item .form_radio label {
+    font-size: 9.5pt;
+}
+
+.calculator .menu .left__part .item .form_radio input {
+    margin: 0;
+    padding: 0;
+    width: 12px;
+    border: none;
+    box-shadow: none;
+}
+
+.calculator .menu .left__part .btn__section {
+    display: flex;
+    align-items: center;
+}
+
+.calculator .menu .left__part .btn__section input[type=submit] {
+    padding: 11px 17px;
+    font-weight: bold;
+    color: #395306;
+    background: #a0e210;
+    border: 1px solid #d5ff00;
+    border-radius: 7px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+}
+
+.calculator .menu .left__part .btn__section span:first-child{
+    padding: 0 0 0 26px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #395306;
+}
+
+.calculator .menu .left__part .btn__section .summ__result{
+    padding: 0 0 0 8px;
+    font-size: 10pt;
+}
+
+.calculator .menu .right__part {
+    padding: 41px 0 0 18px;
+}
+
+.calculator .menu .right__part .range__form:last-child {
+    padding-top: 81px;
+}
+
+.calculator .menu .right__part .range__form input[type=range] {
+    width: 234px;
+}
+
+.calculator .menu .right__part .range__form .range__info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8pt;
+    color: #676767;
+    font-style: italic;
+}
+
+/* footer */
+
+.footer {
+    width: calc(100vw - 20px);
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    background-color: #231f20;
+}
+
+.footer ul {
+    padding: 13px 0 0 64px;
+    display: flex;
+}
+
+.footer ul li {
+    margin-right: 27px;
+    list-style-type: none;
+}
+
+.footer ul li a {
+    font-size: 10pt;
+    color: #ffffff;
+}
+
+.footer ul li a:visited {
+    color: #ffffff;
+}
